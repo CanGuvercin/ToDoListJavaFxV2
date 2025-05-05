@@ -67,6 +67,8 @@ public class TaskDTO implements Serializable {
         return comments;
     }
 
+    // public List<String> getTotalComments() {return totalComments; }
+
     public void addComment(String comment) {
         this.comments.add(comment);
     }
